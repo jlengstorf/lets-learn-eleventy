@@ -1,5 +1,11 @@
 {
+  "scripts": {
+    "build": "eleventy"
+  },
   "dependencies": {
     "axios": "^0.19.1"
+  },
+  "devDependencies": {
+    "eleventy": "^1.0.6"
   }
 }
