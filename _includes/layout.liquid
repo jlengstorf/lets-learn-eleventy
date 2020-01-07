@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+<body>
+  <header>
+    <a href="/">My 11ty Site!</a>
+    <nav>
+      <a href="/characters/">Characters</a>
+    </nav>
+  </header>
+  <main>
+    {% if title %}<h1>{{title}}</h1>{% endif %}
+    {%- if puppers %}
+      <img src="{{puppers}}" alt="a good doggo" />
+    {%- endif %}
+
+    {{content}}
+  </main>
+</body>
+</html>
