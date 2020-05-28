@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "build": "eleventy"
+    "dev": "eleventy --serve --formats=md,jpg",
+    "build": "eleventy --formats=md,jpg"
   },
   "dependencies": {
     "@11ty/eleventy": "^0.10.0",
